@@ -71,7 +71,7 @@
 	 {"source": "YRANES17", "target": "YRANES10", "distance": 38},
 	 {"source": "YRANES17", "target": "YRANES7", "distance": 27},
 	 {"source": "YRANES17", "target": "YRANES12", "distance": 35},
-	 {"source": "YRANES18", "target": "YRANES20", "distance": 1},
+	 {"source": "YRANES18", "target": "YRANES20", "distance": "10"},
 	 {"source": "YRANES2", "target": "YRANES1", "distance": 2},
 	 {"source": "YRANES2", "target": "YRANES7", "distance": 9},
 	 {"source": "YRANES2", "target": "YRANES15", "distance": 15},
