@@ -85,7 +85,7 @@
  {"source": "YRANES17", "target": "YRANES10", "width": 1, "distance": 38},
  {"source": "YRANES17", "target": "YRANES7", "width": 1, "distance": 27},
  {"source": "YRANES17", "target": "YRANES12", "width": 1, "distance": 35},
- {"source": "YRANES18", "target": "YRANES20", "width": 1, "distance": 1},
+ {"source": "YRANES18", "target": "YRANES20", "width": 10, "distance": 1},
  {"source": "YRANES2", "target": "YRANES1", "width": 1, "distance": 2},
  {"source": "YRANES2", "target": "YRANES7", "width": 1, "distance": 9},
  {"source": "YRANES2", "target": "YRANES15", "width": 1, "distance": 15},
@@ -166,7 +166,7 @@
       (document.getElementById('3d-graph'))
         .graphData(gData)
         .nodeLabel('id')
-         .linkWidth(1)
+         .linkWidth('width')
 //           .d3Force("link", d3.forceLink().distance(d => d.distance))
 //           .d3Force("charge", d3.forceManyBody().theta(0.5).strength(-1)) 
 //           .d3Force("link", d3.forceLink().strength(d => d.strength))
