@@ -13,7 +13,7 @@
       (document.getElementById('3d-graph'))
         .jsonUrl('../datasets/miserables.json')
         .nodeLabel('id')
-       .d3Force("link", d3.forceLink().distance(d => d.distance))    
+        .linkDistance(function(d) { return  d.distance; })   
     ;
   </script>
 </body>
