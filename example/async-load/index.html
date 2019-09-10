@@ -13,7 +13,6 @@
       (document.getElementById('3d-graph'))
         .jsonUrl('../datasets/miserables.json')
         .d3Force("link", d3.forceLink().distance(d => d.distance))
-        .d3Force("charge", d3.forceManyBody().theta(0.5).strength(-1))   
         .nodeLabel('id')
         .nodeAutoColorBy('group');
   </script>
