@@ -7,9 +7,9 @@
   "module": "dist/3d-force-graph.module.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vasturiano/3d-force-graph.git"
+    "url": "git+https://github.com/kidinthehall/3d-force-graph.git"
   },
-  "homepage": "https://github.com/vasturiano/3d-force-graph",
+  "homepage": "https://github.com/kidinthehall/3d-force-graph",
   "keywords": [
     "3d",
     "force",
@@ -20,11 +20,11 @@
   ],
   "author": {
     "name": "Vasco Asturiano",
-    "url": "http://bl.ocks.org/vasturiano"
+    "url": "http://bl.ocks.org/kidinthehall"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vasturiano/3d-force-graph/issues"
+    "url": "https://github.com/kidinthehall/3d-force-graph/issues"
   },
   "scripts": {
     "build": "rimraf dist && rollup -c",
