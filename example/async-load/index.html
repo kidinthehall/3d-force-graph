@@ -11,9 +11,9 @@
   <script>
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
-        .jsonUrl('../datasets/miserables.json')
+        .jsonUrl('../datasets/miserables2.json')
         .nodeLabel('id')
-        .linkDistance(function(d) { return  d.distance; })   
+        .linkDistance(function(d) { return  d.value; })   
     ;
   </script>
 </body>
