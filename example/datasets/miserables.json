@@ -29,6 +29,7 @@
 
   ],
   "links": [
+ {"source": "YRANES18", "target": "YRANES19", "width": 6, "distance": 6},
  {"source": "YRANES1", "target": "YRANES8", "width": 6, "distance": 6},
  {"source": "YRANES1", "target": "YRANES3", "width": 24, "distance": 24},
  {"source": "YRANES1", "target": "YRANES9", "width": 40, "distance": 40},
