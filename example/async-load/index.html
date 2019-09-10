@@ -12,7 +12,7 @@
   <script>
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
-        .jsonUrl('../datasets/miserables.json')
+        .jsonUrl('https://github.com/kidinthehall/3d-force-graph/blob/master/example/datasets/miserables.json')
         .nodeLabel('id')
         .d3Force("link", d3.forceLink().distance(d => d.distance))
         .d3Force("charge", d3.forceManyBody().theta(0.5).strength(-1))    
