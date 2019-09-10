@@ -12,8 +12,8 @@
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
         .jsonUrl('../datasets/miserables.json')
+        .d3Force("link", d3.forceLink().distance(d => d.distance))
         .nodeLabel('id')
-        .nodeAutoColorBy('group')
-        .d3Force("link", d3.forceLink().distance(d => d.distance));
+        .nodeAutoColorBy('group');
   </script>
 </body>
