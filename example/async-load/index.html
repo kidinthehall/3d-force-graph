@@ -11,8 +11,8 @@
   <script>
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
-        .jsonUrl('../datasets/miserables2.json')
+        .jsonUrl('../datasets/miserables.json')
         .nodeLabel('id')
-        .d3Force("links", d3.forceLink().distance(d => d.value));
+        .d3.forceLink().distance(d => d.distance));
   </script>
 </body>
